@@ -1,6 +1,10 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
+    
+    height: 100vh;
+    
     
 }
 
@@ -8,13 +12,19 @@ body{
 .footer{
     background-color: #1f2937;
     color: white;
-    display: flex;   
+    display: flex; 
+    height: 20vh;
+
+
+   
+    
 }
 
 .header{
     display: flex;
     flex-direction: column;
-    flex: 1;
+    
+
 
 }
 
@@ -28,6 +38,9 @@ body{
 .content-1{
     display: flex;
     flex-direction: column;
+    height: 20vh;
+    
+    
 }
 .content-1-top{
     display: flex;
@@ -42,5 +55,33 @@ body{
 
 
 .content-2{
+    flex-direction: column;
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    height: 20vh;
+    
+    
+}
+
+.content-3{
+    background-color:white ;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 16px;
+    height: 20vh;
+    
+    
+}
+
+.blue-box{
+    background-color: #3882F6 ;
+    display: flex;
+    padding: 16px;
+    
+    
 }
