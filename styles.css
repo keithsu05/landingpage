@@ -1,28 +1,35 @@
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
 body{
     display: flex;
     flex-direction: column;
     margin: 0;
     
-    height: 100vh;
+   
     
     
 }
-
+a{
+    padding-left: 8px;
+}
 .header,
 .footer{
     background-color: #1f2937;
     color: white;
     display: flex; 
-    height: 20vh;
-
-
-   
     
+
+
 }
 
 .header{
     display: flex;
     flex-direction: column;
+    height: 30vh;
+    padding: 16px 128px;
     
 
 
@@ -35,10 +42,48 @@ body{
     justify-content: space-between;
 }
 
+.header-top{
+    margin-bottom: 20px;
+    
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    padding-left: 16px;
+    
+    
+}
+.header-bottom-left{
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+}
+    
+button{
+align-self: flex-start;
+border-radius: 4px;
+color: #f9faf8;
+background-color: #3882F6;
+border: none;
+}    
+
+.button-2{
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+}
+.header-main-text{
+    font-size: 48px;
+    font-weight: 600;
+}
 .content-1{
     display: flex;
     flex-direction: column;
-    height: 20vh;
+    height: 30vh;
+    justify-content: center;
+   
     
     
 }
@@ -49,10 +94,42 @@ body{
 .content-1-bottom{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    padding-top: 32px;
 }
 
+.box-1,
+.box-2,
+.box-3,
+.box-4{
+    display: flex;
+    flex-direction: column;
+    
+    
 
+}
+
+.box-2,
+.box-3,
+.box-4{
+    margin-left: 5%;
+}
+
+img{
+    border-radius:      1em;
+  height:             100px;
+  -moz-border-radius: 1em;
+  width:              100px;
+  border-color: #3882F6;
+  border-style: solid;
+}
+
+.top-image{
+    border-style: none;
+    height: 150px;
+    width: 360px;
+    
+}
 
 .content-2{
     flex-direction: column;
@@ -66,14 +143,31 @@ body{
     
 }
 
+.content-2-top{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color:#1f2937 ;
+}
+
+.content-2-bottom{
+    font-weight: bold;
+    
+}
+
+
+
+
 .content-3{
     background-color:white ;
     padding: 16px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 16px;
+    padding: 48px;
     height: 20vh;
+    padding-left: 160px;
+    padding-right: 160px;
     
     
 }
@@ -83,5 +177,32 @@ body{
     display: flex;
     padding: 16px;
     
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
     
+    flex-basis: 1200px;
+    
+}
+.blue-box-left{
+    margin-right: 850px;
+    flex-wrap: wrap;
+    
+}
+.call-to-action-top{
+font-size: larger;
+font-weight: bold;
+color: #e5e7eb;
+}
+.call-to-action-bottom{
+color: #e5e7eb;
+font-size: medium;
+}
+.footer{
+    height: 7vh;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+
 }
